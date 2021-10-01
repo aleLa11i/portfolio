@@ -6,7 +6,7 @@ const ControllerSendEmail = async ( req, res ) => {
   try{
 
     console.log(req.body);
-    const {email,title,body} = req.body;
+    const {email,title,text} = req.body;
 
     const transporter = nodemailer.createTransport({
       host: 'smtp.gmail.com',
@@ -22,7 +22,7 @@ const ControllerSendEmail = async ( req, res ) => {
       from: `${email}`,
       to: "alesandro.lalli@gmail.com",
       subject: `📣📣Se han comunicado a traves de la página!!😃😃`,
-      html: ` Enviado por ${email} <br> Título: ${title} <br> Cuerpo:  ${body}`
+      html: ` Enviado por ${email} <br> Título: ${title} <br> Cuerpo:  ${text}`
     };
 
     transporter.sendMail(mailOptions, (err, info) => {
@@ -39,7 +39,7 @@ const ControllerSendEmail = async ( req, res ) => {
           ok: true,
           msg: "Recibido",
           send: {
-            email,title,body
+            email,title,text
           },
           recive: info
         });
