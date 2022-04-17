@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/static/css/main.21491675.chunk.css",
-    "main.js": "/static/js/main.6e73b05c.chunk.js",
-    "main.js.map": "/static/js/main.6e73b05c.chunk.js.map",
+    "main.js": "/static/js/main.e3ffb2ea.chunk.js",
+    "main.js.map": "/static/js/main.e3ffb2ea.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.acca05a7.js",
     "runtime-main.js.map": "/static/js/runtime-main.acca05a7.js.map",
     "static/css/2.a1596f27.chunk.css": "/static/css/2.a1596f27.chunk.css",
@@ -12,6 +12,7 @@
     "static/css/2.a1596f27.chunk.css.map": "/static/css/2.a1596f27.chunk.css.map",
     "static/css/main.21491675.chunk.css.map": "/static/css/main.21491675.chunk.css.map",
     "static/js/2.1eb94762.chunk.js.LICENSE.txt": "/static/js/2.1eb94762.chunk.js.LICENSE.txt",
+    "static/media/ImageFace1.607360a3.jpg": "/static/media/ImageFace1.607360a3.jpg",
     "static/media/calendarAppImg.8dc9657f.png": "/static/media/calendarAppImg.8dc9657f.png",
     "static/media/candyCrushImg.fd07645a.png": "/static/media/candyCrushImg.fd07645a.png",
     "static/media/gifAppImg.a2a2e9d0.png": "/static/media/gifAppImg.a2a2e9d0.png",
@@ -22,6 +23,6 @@
     "static/css/2.a1596f27.chunk.css",
     "static/js/2.1eb94762.chunk.js",
     "static/css/main.21491675.chunk.css",
-    "static/js/main.6e73b05c.chunk.js"
+    "static/js/main.e3ffb2ea.chunk.js"
   ]
 }
